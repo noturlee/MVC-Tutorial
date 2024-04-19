@@ -8,6 +8,14 @@ Welcome to the ASP.NET MVC Guide. This repository aims to provide a comprehensiv
 2. [How MVC Works](docs/02-How-MVC-Works.md)
 3. [Working with Local Databases](docs/03-Working-With-Local-Databases.md)
 4. [Creating an ASP.NET MVC Project](docs/04-Creating-an-ASPNET-MVC-Project.md)
+5. [Great Repository Example](https://github.com/noturlee/TaskTracker-MVC)
+
+## Tools & Software
+
+- Windows Computer
+- Visual Studio 2022
+- SSMS (Microsoft SQL Server Managament Studio) *NO MySQL*
+
 
 ## Contributing
 
