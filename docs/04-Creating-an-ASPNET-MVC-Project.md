@@ -10,36 +10,43 @@
 
 Make sure you install all of these if you want a functinal application, to install go under
 
-Tools > NuGet Packaage Manager > Manage NuGet Packet for Solution and then downlaod the below:
+`Tools` > `NuGet Packaage Manager` > `Manage NuGet Packet` for Solution and then downlaod the below:
 
-1. Microsoft.EntityFrameWorkCore
-2. Microsoft.EntityFrameWorkCore.Design
-3. Microsoft.EntityFrameWorkCore.Sql
-4. Microsoft.EntityFrameWorkCore.Tools
+1. `Microsoft.EntityFrameWorkCore`
+2. `Microsoft.EntityFrameWorkCore.Design`
+3. `Microsoft.EntityFrameWorkCore.Sql`
+4. `Microsoft.EntityFrameWorkCore.Tools`
+
+![image](https://github.com/noturlee/MVC-Basics/assets/100778149/ec59ac63-6aab-4b59-8f74-6561ca85ee71)
 
 ## Scaffold your Database
 
-Copy the below Code, Change the Connection string to yours paste it in 'Connection String'
+To Connect to your database go to :
 
-Scaffold-DbContext "Data Source=LEIGHCHESHP\SQLEXPRESS;Initial Catalog=BargainBooks2;Integrated Security=True;Encrypt=False;Trust Server Certificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+View > SQL Server Object explorer > find your SSMS Database > right click on it > properties > a side bar will open> scroll and find Connection string
 
-## Adding a Model
+![image](https://github.com/noturlee/MVC-Basics/assets/100778149/21e30aa0-e71c-4c6d-90af-488e2ef54cdf)
 
-1. **Right-click on the Models folder.**
-2. **Add a new class and define properties.**
+Now go to:
 
-## Adding a View
+`Tools` > `NuGet Package Manager` > `Packet Manager Console`:
 
-1. **Right-click on the Views folder.**
-2. **Select Add and then View.**
-3. **Provide a name and select the template as needed.**
+Copy the below Code, Change the Connection string to yours paste it in 'Paste Your Connection String'
+
+`Scaffold-DbContext "Paste Your Connection String " Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models`
+
+Press `Enter` and it will start scaffolding, it may take a while, a yellow bar will appear so that means you doing it right
+The Scaffolding will Add your Database Tables in the `Models` Folder
+
 
 ## Adding a Controller
 
 1. **Right-click on the Controllers folder.**
 2. **Select Add and then Controller.**
-3. **Choose MVC 5 Controller with views, using Entity Framework.**
-4. **Follow the prompts to link the model and context.**
+3. **Choose MVC Controller with views, using Entity Framework.**
+4. **Follow the prompts to link the Model and context.**
+
+Adding the Controller e.g. for the Model Donations will create a View automatically for that table
 
 ## Running the Application
 
