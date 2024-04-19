@@ -9,6 +9,7 @@ Welcome to the ASP.NET MVC Guide. This repository aims to provide a comprehensiv
 3. [Working with Local Databases](docs/03-Working-With-Local-Databases.md)
 4. [Creating an ASP.NET MVC Project](docs/04-Creating-an-ASPNET-MVC-Project.md)
 5. [Great Repository Example](https://github.com/noturlee/TaskTracker-MVC)
+6. [How to Make a Good Repository](docs/05-How-to-Make-a-Good-Repo)
 
 ## Tools & Software
 
