@@ -1,3 +1,6 @@
+`too see the code for how to make a repo like this tap the edit pen on the right top`
+
+
 # Helping Hands
 
 Welcome to the official repository for Helping Hands, a non-profit organization dedicated to making a difference. This repository hosts the code for our simple MVC web application designed to facilitate and manage donations efficiently.
