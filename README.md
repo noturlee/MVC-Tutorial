@@ -13,7 +13,7 @@ Welcome to the ASP.NET MVC Guide. This repository aims to provide a comprehensiv
 
 ## Tools & Software
 
-- Windows Computer
+- Windows Computer or VM (Virtual Machine)
 - Visual Studio 2022
 - SSMS (Microsoft SQL Server Managament Studio) *NO MySQL*
 
