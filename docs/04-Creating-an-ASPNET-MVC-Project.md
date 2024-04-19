@@ -1,4 +1,3 @@
-# Markdown
 # Creating an ASP.NET MVC Project
 
 ## Setting Up
@@ -6,6 +5,23 @@
 1. **Open Visual Studio.**
 2. **Create a new project and select ASP.NET Web Application.**
 3. **Choose the MVC template and ensure that authentication is set as needed.**
+
+## Install NuGet Packages
+
+Make sure you install all of these if you want a functinal application, to install go under
+
+Tools > NuGet Packaage Manager > Manage NuGet Packet for Solution and then downlaod the below:
+
+1. Microsoft.EntityFrameWorkCore
+2. Microsoft.EntityFrameWorkCore.Design
+3. Microsoft.EntityFrameWorkCore.Sql
+4. Microsoft.EntityFrameWorkCore.Tools
+
+## Scaffold your Database
+
+Copy the below Code, Change the Connection string to yours paste it in 'Connection String'
+
+Scaffold-DbContext "Data Source=LEIGHCHESHP\SQLEXPRESS;Initial Catalog=BargainBooks2;Integrated Security=True;Encrypt=False;Trust Server Certificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 
 ## Adding a Model
 
