@@ -1,6 +1,9 @@
-# ASP.NET MVC Guide
+![Repository Views](https://img.shields.io/badge/dynamic/json?color=blue&label=Views&query=$.data.views&url=https://api.github.com/repos/noturlee/MVC-Basics)
+# <span style="color:#1e90ff;">ASP.NET MVC Guide</span>
 
 Welcome to the ASP.NET MVC Guide. This repository aims to provide a comprehensive tutorial on how to use the Model-View-Controller (MVC) pattern in ASP.NET applications, connect to local databases, and create a project from scratch.
+
+<img src = "https://www.interviewbit.com/blog/wp-content/uploads/2022/05/Working-of-MVC-2048x1372.png" width =500 height = 300/>
 
 ## Table of Contents
 
