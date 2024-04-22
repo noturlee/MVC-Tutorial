@@ -1,0 +1,52 @@
+﻿@model IEnumerable<HelpingHands.Models.Donation>
+
+@{
+    ViewData["Title"] = "Donations";
+}
+
+<style>
+    body {
+        background-color: #E5EFE4;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <br />
+            <br />
+            <br />
+            <h1>Donation Records</h1>
+            <br />
+            <p>
+                <a asp-action="Create" class="btn btn-primary">Create New Donation</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        @foreach (var donation in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Donor: @Html.DisplayFor(modelItem => donation.Donor.FirstName)
+                            @Html.DisplayFor(modelItem => donation.Donor.LastName)
+                        </h5>
+                        <p class="card-text">
+                            <strong>Project:</strong> @Html.DisplayFor(modelItem => donation.Project.ProjectName) <br />
+                            <strong>Amount:</strong> @Html.DisplayFor(modelItem => donation.Amount) <br />
+                            <strong>Donation Date:</strong> @Html.DisplayFor(modelItem => donation.DonationDate)
+                        </p>
+                        <div class="card-footer">
+                            <a asp-action="Edit" asp-route-id="@donation.DonationId" class="btn btn-warning">Edit</a>
+                            <a asp-action="Details" asp-route-id="@donation.DonationId" class="btn btn-info">Details</a>
+                            <a asp-action="Delete" asp-route-id="@donation.DonationId" class="btn btn-danger">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
