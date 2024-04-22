@@ -23,14 +23,6 @@ Welcome to the ASP.NET MVC Guide. This repository aims to provide a comprehensiv
 ## Creating Helping Hands NPO Site Tutorial
 Click the button below to watch a tutorial video.
 
-<div align="left">
-  <img src="https://media3.giphy.com/media/rrOif8vmuM6g05Zha5/giphy.gif?cid=6c09b9525yudzzl1gio0aotte4jpryu1uy7dlflc01rk9s3i&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="Cloud Image" width="300">
-</div>
-
-<a href="https://youtu.be/eUV-osuKPpE" target="_blank">
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Icon">
-</a>
-
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
