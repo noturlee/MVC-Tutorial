@@ -27,6 +27,9 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-nuget-
 
+    - name: Change to project directory
+      run: cd MVC-Basics/HelpingHands  # Navigate to the correct directory
+
     - name: Restore dependencies
       run: dotnet restore
 
@@ -41,4 +44,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: my-build-artifacts
-        path: <path-to-your-artifacts>
+        path: MVC-Basics/HelpingHands  # Specify the correct path to save artifacts
