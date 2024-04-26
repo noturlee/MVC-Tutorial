@@ -20,10 +20,8 @@ Welcome to the ASP.NET MVC Guide. This repository aims to provide a comprehensiv
 - Visual Studio 2022
 - SSMS (Microsoft SQL Server Managament Studio) *NO MySQL*
 
-## Creating Helping Hands NPO Site Tutorial
-Click the button below to watch a tutorial video.
 
-## YouTube Demo
+## YouTube Demo of Helping Hands
 
 Click the button below to watch a tutorial video.
 
