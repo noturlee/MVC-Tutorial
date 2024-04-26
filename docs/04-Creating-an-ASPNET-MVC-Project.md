@@ -12,10 +12,20 @@ Make sure you install all of these if you want a functinal application, to insta
 
 `Tools` > `NuGet Packaage Manager` > `Manage NuGet Packet` for Solution and then downlaod the below:
 
-1. `Microsoft.EntityFrameWorkCore`
-2. `Microsoft.EntityFrameWorkCore.Design`
-3. `Microsoft.EntityFrameWorkCore.Sql`
-4. `Microsoft.EntityFrameWorkCore.Tools`
+
+1. ```
+   Microsoft.EntityFrameWorkCore
+   ```
+2. ```
+   Microsoft.EntityFrameWorkCore.Design
+   ```
+3. ```
+   Microsoft.EntityFrameWorkCore.Sql
+   ```
+   
+4. ```
+   Microsoft.EntityFrameWorkCore.Tools
+   ```
 
 ![image](https://github.com/noturlee/MVC-Basics/assets/100778149/ec59ac63-6aab-4b59-8f74-6561ca85ee71)
 
@@ -33,8 +43,9 @@ Now go to:
 
 Copy the below Code, Change the Connection string to yours paste it in 'Paste Your Connection String'
 
-`Scaffold-DbContext "Paste Your Connection String " Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models`
-
+```
+Scaffold-DbContext "Your Connection String" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+```
 Press `Enter` and it will start scaffolding, it may take a while, a yellow bar will appear so that means you doing it right
 The Scaffolding will Add your Database Tables in the `Models` Folder
 

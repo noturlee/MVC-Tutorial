@@ -1,4 +1,4 @@
-`too see the code for how to make a repo like this tap the edit pen on the right top`
+`too see the code for how to make a repo like this tap the button thats says RAW on the right top`
 
 
 # Helping Hands
