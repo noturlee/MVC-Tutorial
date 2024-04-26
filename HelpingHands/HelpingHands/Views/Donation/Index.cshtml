@@ -4,50 +4,66 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<style>
+    body {
+        background-color: #E5EFE4;
+        padding-left: 6%;
+    }
+</style>
+<br />
+<br />
+<br />
+<h1>Donations Overview</h1>
+<br />
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-primary">Make a Donation</a>     <a asp-action="Index" asp-controller="Graph" class="btn btn-warning">Visualise Data</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Amount)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DonationDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Donor)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Project)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Amount)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DonationDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Donor.DonorId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Project.ProjectId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.DonationId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.DonationId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.DonationId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<br />
+<br />
+
+<!-- Responsive table container -->
+<div class="table-responsive">
+    <table class="table table-striped table-bordered">
+        <!-- Bootstrap classes for table -->
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Amount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DonationDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Donor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Project)
+                </th>
+                <th>Actions</th> 
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Amount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DonationDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Donor.DonorId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Project.ProjectId)
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.DonationId" class="btn btn-info">Details</a> <!-- Button -->
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div> <!-- End of responsive table container -->

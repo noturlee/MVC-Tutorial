@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HelpingHands.Models;
+using Newtonsoft.Json;
 
 namespace HelpingHands.Controllers
 {
@@ -22,15 +23,19 @@ namespace HelpingHands.Controllers
         public async Task<IActionResult> Index()
         {
             var donations = await _context.Donations
-                .Include(d => d.Donor)
-                .Include(d => d.Project)
+                .Include(d => d.Donor)  
+                .Include(d => d.Project) 
                 .ToListAsync();
 
             return View(donations);
         }
 
-        // GET: Donation/Details/5
-        public async Task<IActionResult> Details(int? id)
+
+
+
+
+            // GET: Donation/Details/5
+            public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {

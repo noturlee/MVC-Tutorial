@@ -1,48 +1,80 @@
-﻿@model IEnumerable<HelpingHands.Models.Donation>
+﻿@model IEnumerable<HelpingHands.Models.Donor>
 
 @{
-    ViewData["Title"] = "Donations";
+    ViewData["Title"] = "Donor";
 }
 
 <style>
     body {
-        background-color: #E5EFE4;
+        background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/hd/cca1e136569841.5720ffd3c7679.gif');
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    body, h1, h5, p, a {
+        color: white;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.1); 
+        backdrop-filter: blur(10px); 
+        border: none; 
+    }
+
+    .btn {
+        color: white; 
+    }
+
+    .btn-warning {
+        background-color: orange; 
+    }
+
+    .btn-info {
+        background-color: deepskyblue;
+    }
+
+    .btn-danger {
+        background-color: red;
     }
 </style>
 
 <div class="container">
-    <div class="row">
-        <div class="col-12 text-center">
+    <div class="row text-center">
+        <div class="col-12">
             <br />
             <br />
             <br />
-            <h1>Donation Records</h1>
+            <h1>My Profile</h1>
             <br />
-            <p>
-                <a asp-action="Create" class="btn btn-primary">Create New Donation</a>
-            </p>
+            <br />
+            @if (!Model.Any())
+            {
+                <p>
+                    <a asp-action="Create" class="btn btn-primary">Create A Donor</a>
+                </p>
+            }
         </div>
     </div>
 
-    <div class="row">
-        @foreach (var donation in Model)
+    <div class="row justify-content-center">
+        @foreach (var donor in Model)
         {
-            <div class="col-md-4">
-                <div class="card mb-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
                     <div class="card-body">
                         <h5 class="card-title">
-                            Donor: @Html.DisplayFor(modelItem => donation.Donor.FirstName)
-                            @Html.DisplayFor(modelItem => donation.Donor.LastName)
+                            Donor: @Html.DisplayFor(modelItem => donor.FirstName) @Html.DisplayFor(modelItem => donor.LastName)
                         </h5>
                         <p class="card-text">
-                            <strong>Project:</strong> @Html.DisplayFor(modelItem => donation.Project.ProjectName) <br />
-                            <strong>Amount:</strong> @Html.DisplayFor(modelItem => donation.Amount) <br />
-                            <strong>Donation Date:</strong> @Html.DisplayFor(modelItem => donation.DonationDate)
+                            <strong>Email:</strong> @Html.DisplayFor(modelItem => donor.Email) <br />
+                            <strong>Address:</strong> @Html.DisplayFor(modelItem => donor.Address) <br />
+                            <strong>Donations:</strong> @Html.DisplayFor(modelItem => donor.Donations.Count) <br />
                         </p>
                         <div class="card-footer">
-                            <a asp-action="Edit" asp-route-id="@donation.DonationId" class="btn btn-warning">Edit</a>
-                            <a asp-action="Details" asp-route-id="@donation.DonationId" class="btn btn-info">Details</a>
-                            <a asp-action="Delete" asp-route-id="@donation.DonationId" class="btn btn-danger">Delete</a>
+                            <a asp-action="Edit" asp-route-id="@donor.DonorId" class="btn btn-warning">Edit</a>
+                            <a asp-action="Details" asp-route-id="@donor.DonorId" class="btn btn-info">Details</a>
+                            <a asp-action="Delete" asp-route-id="@donor.DonorId" class="btn btn-danger">Delete</a>
                         </div>
                     </div>
                 </div>

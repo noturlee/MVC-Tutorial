@@ -17,99 +17,103 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HelpingHands
 build_property.RootNamespace = HelpingHands
-build_property.ProjectDir = C:\Users\leigh\OneDrive\VS CODE\HelpingHands\HelpingHands\
+build_property.ProjectDir = C:\Users\Hp\OneDrive\Documents\GitHub\MVC-Basics\HelpingHands\HelpingHands\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\leigh\OneDrive\VS CODE\HelpingHands\HelpingHands
+build_property.MSBuildProjectDirectory = C:\Users\Hp\OneDrive\Documents\GitHub\MVC-Basics\HelpingHands\HelpingHands
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/About/Index.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Donation/Create.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Donation/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uYXRpb25cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Donation/Delete.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Donation/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uYXRpb25cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Donation/Details.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Donation/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uYXRpb25cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Donation/Edit.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Donation/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uYXRpb25cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Donation/Index.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Donation/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uYXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Donor/Create.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Donor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Donor/Delete.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Donor/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Donor/Details.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Donor/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Donor/Edit.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Donor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Donor/Index.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Donor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Home/Index.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Graph/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhcGhcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Project/Create.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Project/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Project/Delete.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Project/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Project/Details.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Project/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Project/Edit.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Project/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Project/Index.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Project/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Shared/Error.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/_ViewImports.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/_ViewStart.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leigh/OneDrive/VS CODE/HelpingHands/HelpingHands/Views/Shared/_Layout.cshtml]
+[C:/Users/Hp/OneDrive/Documents/GitHub/MVC-Basics/HelpingHands/HelpingHands/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-45cvjzlxw4

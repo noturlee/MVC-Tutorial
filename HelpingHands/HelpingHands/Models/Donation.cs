@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 
 namespace HelpingHands.Models;
 
@@ -19,3 +20,4 @@ public partial class Donation
 
     public virtual Project? Project { get; set; }
 }
+

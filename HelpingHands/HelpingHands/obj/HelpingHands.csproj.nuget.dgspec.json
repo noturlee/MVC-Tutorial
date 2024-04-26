@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leigh\\OneDrive\\VS CODE\\HelpingHands\\HelpingHands\\HelpingHands.csproj": {}
+    "C:\\Users\\Hp\\OneDrive\\Documents\\GitHub\\MVC-Basics\\HelpingHands\\HelpingHands\\HelpingHands.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leigh\\OneDrive\\VS CODE\\HelpingHands\\HelpingHands\\HelpingHands.csproj": {
+    "C:\\Users\\Hp\\OneDrive\\Documents\\GitHub\\MVC-Basics\\HelpingHands\\HelpingHands\\HelpingHands.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leigh\\OneDrive\\VS CODE\\HelpingHands\\HelpingHands\\HelpingHands.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\OneDrive\\Documents\\GitHub\\MVC-Basics\\HelpingHands\\HelpingHands\\HelpingHands.csproj",
         "projectName": "HelpingHands",
-        "projectPath": "C:\\Users\\leigh\\OneDrive\\VS CODE\\HelpingHands\\HelpingHands\\HelpingHands.csproj",
-        "packagesPath": "C:\\Users\\leigh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leigh\\OneDrive\\VS CODE\\HelpingHands\\HelpingHands\\obj\\",
+        "projectPath": "C:\\Users\\Hp\\OneDrive\\Documents\\GitHub\\MVC-Basics\\HelpingHands\\HelpingHands\\HelpingHands.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\OneDrive\\Documents\\GitHub\\MVC-Basics\\HelpingHands\\HelpingHands\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\leigh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,17 +34,16 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0-preview.3.24172.4, )"
@@ -68,6 +67,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -89,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
