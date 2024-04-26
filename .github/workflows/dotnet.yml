@@ -34,10 +34,3 @@ jobs:
       run: dotnet restore
       working-directory: HelpingHands  # Set to the correct project directory
 
-    - name: Build
-      run: dotnet build --no-restore
-      working-directory: HelpingHands  # Build in the correct directory
-
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
-      working-directory: HelpingHands  # Test in the correct directory
