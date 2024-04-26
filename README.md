@@ -23,8 +23,8 @@ Welcome to the ASP.NET MVC Guide. This repository aims to provide a comprehensiv
 ## Creating Helping Hands NPO Site Tutorial
 Click the button below to watch a tutorial video.
 
-## YouTube
-  ## Tutorial
+## YouTube Demo
+
 Click the button below to watch a tutorial video.
 
 <div align="left">
