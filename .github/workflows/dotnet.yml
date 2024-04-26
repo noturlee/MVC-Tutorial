@@ -14,6 +14,9 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v4
 
+    - name: List files to debug
+      run: ls -la  # This helps you verify if the expected files and directories are present
+
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
@@ -27,21 +30,14 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-nuget-
 
-    - name: Change to project directory
-      run: cd MVC-Basics/HelpingHands  # Navigate to the correct directory
-
     - name: Restore dependencies
       run: dotnet restore
+      working-directory: HelpingHands  # Set to the correct project directory
 
     - name: Build
       run: dotnet build --no-restore
+      working-directory: HelpingHands  # Build in the correct directory
 
     - name: Test
       run: dotnet test --no-build --verbosity normal
-
-    - name: Save artifacts
-      if: success()  # Save artifacts only on successful builds
-      uses: actions/upload-artifact@v3
-      with:
-        name: my-build-artifacts
-        path: MVC-Basics/HelpingHands  # Specify the correct path to save artifacts
+      working-directory: HelpingHands  # Test in the correct directory
