@@ -1,4 +1,4 @@
-![Repository Views](https://img.shields.io/badge/dynamic/json?color=blue&label=Views&query=$.data.views&url=https://api.github.com/repos/noturlee/MVC-Basics)
+![Repository Views](https://img.shields.io/badge/dynamic/json?color=blue&label=Views&query=$.count&url=https://api.github.com/repos/noturlee/MVC-Basics/traffic/views)
 # <span style="color:#1e90ff;">ASP.NET MVC Guide</span>
 
 Welcome to the ASP.NET MVC Guide. This repository aims to provide a comprehensive tutorial on how to use the Model-View-Controller (MVC) pattern in ASP.NET applications, connect to local databases, and create a project from scratch.
